@@ -1,17 +1,13 @@
 p,
 a {
-  background: yellow;
-  color: red;
+  background: brown;
+  color: orange;
 }
 html {
-  background: pink;
-  width: 1200px;
-  padding: 20px;
-  border: 10px;
-  margin: 0 auto;
+  background: green;
 }
 main {
-  background: pink;
+  background: olive;
   display: flex;
   flex-direction: row;
   flex: auto;
@@ -22,10 +18,15 @@ body {
   flex-direction: column;
 }
 aside, h2 {
-  background: pink;
+  background: purple;
+  flex: 1;
 }
 
 article {
-  flex: 1;
-  overflow-y: auto;
+  flex: 2;
+}
+
+.Food {
+  height: 300px;
+  width: 300px;
 }
